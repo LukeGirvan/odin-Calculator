@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.container .page-title {
+  font-family: "Orbitron";
+  font-size: 2rem;
+}
+.container .button-row, .container .clear {
+  width: 100%;
+}
+.container .operand, .container .equals {
+  background-color: orange;
+  color: black;
+}
+.container .calculator, .container .button-row, .container .clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .calculator {
+  flex-direction: column;
+  font-family: "Orbitron";
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  background-color: rgb(0, 0, 0);
+  width: 400px;
+  height: 75dvh;
+  border-radius: 6px;
+  border: 3px solid rgb(108, 108, 108);
+  align-items: center;
+  padding: 1rem;
+}
+.container .button-row {
+  flex-direction: row;
+}
+.container .display {
+  padding: 1rem;
+  min-height: 64px;
+  word-wrap: break-word;
+  word-break: break-all;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 90%;
+  border: 3px solid rgb(40, 40, 41);
+  border-radius: 10px;
+  margin-bottom: 1.3rem;
+}
+.container button {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: gray;
+  color: orange;
+  width: 21.5%;
+  box-shadow: 5px 5px 10px black;
+  height: 60px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 6px;
+  margin: 5px;
+  padding: 1.3rem;
+}
+.container .wipe, .container .backspace {
+  color: white;
+  background-color: red;
+  box-sizing: border-box;
+  width: 50%;
+  margin: 12px;
+}
+.container .wipe {
+  padding-right: 1rem;
+}
+.container .backspace:hover, .container .wipe:hover {
+  background-color: rgb(108, 18, 18);
+  cursor: pointer;
+}
+.container .number:hover {
+  cursor: pointer;
+  background-color: rgb(65, 64, 64);
+}
+.container .operand:hover, .container .equals:hover {
+  background-color: rgb(185, 120, 1);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=output.css.map */
